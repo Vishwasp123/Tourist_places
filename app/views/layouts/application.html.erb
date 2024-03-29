@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TouristPlacesFinder</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  <%= javascript_importmap_tags %>
+</head>
+
+<body>
+  <div class="col-lg-12">
+    <div class="container-fluid">
+      <div class="row">
+        <%= render '/shared/header', class:"navbar-position" %>
+        <p class="notice m-0"><%= notice %></p>
+        <p class="alert m-0 "><%= alert%></p>
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

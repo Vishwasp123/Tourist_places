@@ -1,0 +1,24 @@
+//= link_tree ../images
+//= link_tree ../../javascript .js
+//= link_tree ../../../vendor/javascript .js
+//= link_tree ../builds
+//= link bootstrap.min.css
+//= link font-awesome.css
+//= link templatemo-klassy-cafe.css
+//= link owl-carousel.css
+//= link lightbox.css
+//= link jquery-2.1.0.min.js
+//= link bootstrap.min.js
+//= link popper.js
+//= link owl-carousel.js
+//= link accordions.js
+//= link datepicker.js
+//= link scrollreveal.min.js
+//= link waypoints.min.js
+//= link jquery.counterup.min.js
+//= link imgfix.min.js
+//= link slick.js
+//= link lightbox.js
+//= link isotope.js
+//= link custom.js
+
